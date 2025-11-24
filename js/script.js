@@ -36,7 +36,7 @@ var x = setInterval(() => {
     seconds < 10 ? "0" + seconds : seconds;
 }, 1000);
 
-// form validation form boootstrap 5
+// form validation form bootstrap 5
 (() => {
   "use strict";
   const forms = document.querySelectorAll(".needs-validation");

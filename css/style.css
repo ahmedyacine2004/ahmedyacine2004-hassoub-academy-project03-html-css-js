@@ -66,7 +66,7 @@ header .send-notification p {
 
 header .input-group {
   width: 30%;
-  margin: auto; 
+  margin: auto;
   transform: translateY(30%);
 }
 
@@ -79,11 +79,161 @@ header .input-group button {
 header .input-group input {
   padding: 13px 20px;
   border-radius: 0;
-  border : 2px solid #ffce00;
+  border: 2px solid #ffce00;
   font-size: 18px;
   text-align: right;
 }
 
 .invalid-feedback {
   margin-bottom: -30px;
+}
+
+section.features {
+  padding: 100px 0;
+}
+
+section.features h2 {
+  font-size: 45px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+section.features .feature-box {
+  border: 4px solid #fafafa;
+  padding: 40px 10px;
+  margin-top: 0;
+  max-height: 190px;
+}
+
+section.features .feature-box h3 {
+  font-size: 28px;
+  color: #555;
+}
+
+section.features .feature-box p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #a1a1a1;
+}
+
+footer {
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+footer .footer-notification {
+  background-color: rgba(255, 206, 0, 0.7);
+  padding: 70px 0px;
+}
+
+footer .footer-notification h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+footer .footer-notification .input-group {
+  width: 30%;
+  margin: auto;
+}
+
+footer .footer-notification .input-group input {
+  padding: 13px 20px;
+  border-radius: 0;
+  border: 2px solid #ffce00;
+  font-size: 18px;
+  text-align: right;
+}
+
+footer .footer-notification .input-group button {
+  background-color: #333333;
+  padding: 13px 33px;
+  border-radius: 0;
+}
+
+footer .social-media {
+  background-color: rgba(57, 57, 57, 0.9);
+  padding: 100px 0px 30px;
+}
+
+footer .social-media h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+footer .social-media .list-inline a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(255, 255, 255, 0.14);
+  transition: background-color 0.3s, color 0.3s;
+}
+footer .social-media .list-inline a:hover {
+  background-color: #ffce00;
+}
+
+i {
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover i {
+  color: #000;
+}
+
+footer .social-media hr {
+  width: 25%;
+  color: white;
+  margin: 50px auto 30px;
+}
+footer .social-media a.email,
+footer .social-media a.email i {
+  color: #ffce00;
+  text-decoration: none;
+  margin: 0px 12px;
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    padding: 0;
+    margin: 0;
+  }
+  header .heading-section p {
+    width: 70%;
+  }
+
+  .input-group {
+    width: 60% !important;
+  }
+
+  section.features .feature-box {
+    padding: 15px 10px;
+    min-height: unset;
+  }
+  section.features .feature-box h3 {
+    font-size: 20px;
+  }
+  header .heading-section h1 {
+    padding: 24px 0px;
+    width: 70%;
+    margin: auto;
+  }
+  header .count-down {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .count-down {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .input-group {
+    width: 90% !important;
+  }
 }
