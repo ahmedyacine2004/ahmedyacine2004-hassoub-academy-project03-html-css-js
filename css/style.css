@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Cairo";
+  src: url("../fonts/Cairo-Regular.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+}
+
+header {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-position: center center;
+  /* text-align: center; */
+}
+
+header .brand {
+  margin-top: 100px;
+  display: inline-block;
+  padding-bottom: 35px;
+  border-bottom: 5px solid #727477;
+}
+
+header .heading-section h1 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 75px;
+  color: #fff;
+}
+
+header .heading-section p {
+  font-size: 18px;
+  line-height: 25px;
+  color: #acacac;
+  width: 40%;
+  margin: auto;
+}
+
+.counter {
+  display: flex;
+  text-align: center;
+  padding: 40px;
+  flex-direction: column;
+}
+.counter .count-amount {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff700;
+}
+
+.counter .count-period {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+header .send-notification p {
+  font-size: 18px;
+  color: white;
+}
+
+header .input-group {
+  width: 30%;
+  margin: auto; 
+  transform: translateY(30%);
+}
+
+header .input-group button {
+  background-color: #ffce00;
+  padding: 13px 33px;
+  border-radius: 0;
+}
+
+header .input-group input {
+  padding: 13px 20px;
+  border-radius: 0;
+  border : 2px solid #ffce00;
+  font-size: 18px;
+  text-align: right;
+}
+
+.invalid-feedback {
+  margin-bottom: -30px;
+}
